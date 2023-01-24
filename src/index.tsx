@@ -5,6 +5,10 @@ import Login from "./routes/Login";
 import Dashboard from "./routes/Dashboard/Dashboard";
 const router = createBrowserRouter([
   {
+    path: '',
+    element: <Login />
+  },
+  {
     path: "/login",
     element: <Login />
   },
